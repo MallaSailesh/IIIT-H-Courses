@@ -1,0 +1,19 @@
+gcc -Wall 1.c
+this gives the warnings 
+ 
+ 
+ gcc -E 1.c > 1.i(if we want to change the name 1.i as say 2.i then we should use -o option) 
+ this genereates the 1.i the code after preprocessing phase
+ then use cat 1.i is used to open the file 
+ 
+ gcc -S 1.c > 1.s
+ this generates the 1.s the code shows the assembly code 
+ i.e after the compilation phase
+ 
+ gcc -c 1.c 
+ this generates 1.o file ie the phase after assembly phase
+ 
+ gcc -Wall 1.c -o 1 -lm // lm is used to link to the math library. math.h is stored in libm.so so lm is used for that
+ 
+ 
+   
