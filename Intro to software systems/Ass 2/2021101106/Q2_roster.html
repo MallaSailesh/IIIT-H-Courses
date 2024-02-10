@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body{
+            padding-left: 250px;
+            padding-top: 100px;
+            background-color:lightgray;
+        }
+        table{
+            background-color:wheat;
+            box-shadow: 10px 10px 5px black;
+        }
+        table,th,td{
+            border:3px solid black;
+            border-radius: 1.5em;
+        }
+        th{
+            background-color: chartreuse;
+            padding : 10px ;
+            border-radius: 1.5em;
+            font-style: italic;
+            font-size: 30px;
+        }
+        td{
+            background-color:yellow;
+            padding : 10px ;
+            border-radius: 1.5em;
+            margin : 15px;
+            font-size: 20px;
+            font-style: italic;
+        }
+        .white{
+            background-color:white;
+            border-radius: 1.5em;
+        }
+        .yellow{
+            background-color: red;
+            border-radius: 1.5em;
+        }
+        .day{
+            border-radius: 1.5em;
+        }
+        
+    </style>
+</head>
+<body>
+  <table>
+      <caption><h1 style="font-style: italic;">Time Table</h1></caption>
+      <tr>
+          <th class="white">-</th>
+          <th colspan="3" class="yellow">Forenoon</th>
+          <th colspan="3" class="yellow">Afternoon</th>
+      </tr>
+      <tr>
+        <th class="white">-</th>
+        <th>1st Period</th>
+        <th>2nd Period</th>
+        <th>3rd Period</th>
+        <th>4th Period</th>
+        <th>5th Period</th>
+        <th>6th Period</th>
+
+      </tr>
+      <tr>
+          <th class="day">Monday</th>
+          <td class="m1"></td>
+          <td class="m2"></td>
+          <td class="m3"></td>
+          <td class="m4"></td>
+          <td class="m5"></td>
+          <td class="m6"></td>
+      </tr>
+      <tr>
+          <th class="day">Tuesday</th>
+          <td class="t1"></td>
+          <td class="t2"></td>
+          <td class="t3"></td>
+          <td class="t4"></td>
+          <td class="t5"></td>
+          <td class="t6"></td>
+      </tr>
+      <tr>
+          <th class="day">Wednesday</th>
+          <td class="w1"></td>
+          <td class="w2"></td>
+          <td class="w3"></td>
+          <td class="w4"></td>
+          <td class="w5"></td>
+          <td class="w6"></td>
+      </tr>
+      <tr>
+        <th class="day">Thursday</th>
+        <td class="m1"></td>
+        <td class="m2"></td>
+        <td class="m3"></td>
+        <td class="m4"></td>
+        <td class="m5"></td>
+        <td class="m6"></td>
+      </tr>
+      <tr>
+        <th class="day">Friday</th>
+        <td class="t1"></td>
+        <td class="t2"></td>
+        <td class="t3"></td>
+        <td class="t4"></td>
+        <td class="t5"></td>
+        <td class="t6"></td>
+    </tr>
+      <tr>
+        <th class="day">Saturday</th>
+        <td class="w1"></td>
+        <td class="w2"></td>
+        <td class="w3"></td>
+        <td class="w4"></td>
+        <td class="w5"></td>
+        <td class="w6"></td>
+    </tr>
+  </table> 
+  <script>
+        var m1 = document.getElementsByClassName('m1');
+        m1[0].innerHTML=prompt("Enter your course");
+        m1[1].innerHTML=m1[0].innerHTML;
+        
+        var m2 = document.getElementsByClassName('m2');
+        m2[0].innerHTML=prompt("Enter your course");
+        m2[1].innerHTML=m2[0].innerHTML;
+        
+        var m3 = document.getElementsByClassName('m3');
+        m3[0].innerHTML=prompt("Enter your course");
+        m3[1].innerHTML=m3[0].innerHTML;
+        
+        var m4 = document.getElementsByClassName('m4');
+        m4[0].innerHTML=prompt("Enter your course");
+        m4[1].innerHTML=m4[0].innerHTML;
+
+        var m5 = document.getElementsByClassName('m5');
+        m5[0].innerHTML=prompt("Enter your course");
+        m5[1].innerHTML=m5[0].innerHTML;
+
+        var m6 = document.getElementsByClassName('m6');
+        m6[0].innerHTML=prompt("Enter your course");
+        m6[1].innerHTML=m6[0].innerHTML;
+        
+        var t1 = document.getElementsByClassName('t1');
+        t1[0].innerHTML=prompt("Enter your course");
+        t1[1].innerHTML=t1[0].innerHTML;
+        
+        var t2 = document.getElementsByClassName('t2');
+        t2[0].innerHTML=prompt("Enter your course");
+        t2[1].innerHTML=t2[0].innerHTML;
+        
+        var t3 = document.getElementsByClassName('t3');
+        t3[0].innerHTML=prompt("Enter your course");
+        t3[1].innerHTML=t3[0].innerHTML;
+        
+        var t4 = document.getElementsByClassName('t4');
+        t4[0].innerHTML=prompt("Enter your course");
+        t4[1].innerHTML=t4[0].innerHTML;
+        
+        var t5 = document.getElementsByClassName('t5');
+        t5[0].innerHTML=prompt("Enter your course");
+        t5[1].innerHTML=t5[0].innerHTML;
+       
+        var t6 = document.getElementsByClassName('t6');
+        t6[0].innerHTML=prompt("Enter your course");
+        t6[1].innerHTML=t6[0].innerHTML;
+        
+        var w1 = document.getElementsByClassName('w1');
+        w1[0].innerHTML=prompt("Enter your course");
+        w1[1].innerHTML=w1[0].innerHTML;
+        
+        var w2 = document.getElementsByClassName('w2');
+        w2[0].innerHTML=prompt("Enter your course");
+        w2[1].innerHTML=w2[0].innerHTML;
+        
+        var w3 = document.getElementsByClassName('w3');
+        w3[0].innerHTML=prompt("Enter your course");
+        w3[1].innerHTML=w3[0].innerHTML;
+
+        var w4 = document.getElementsByClassName('w4');
+        w4[0].innerHTML=prompt("Enter your course");
+        w4[1].innerHTML=w4[0].innerHTML;
+
+        var w5 = document.getElementsByClassName('w5');
+        w5[0].innerHTML=prompt("Enter your course");
+        w5[1].innerHTML=w5[0].innerHTML;
+
+        var w6 = document.getElementsByClassName('w6');
+        w6[0].innerHTML=prompt("Enter your course");
+        w6[1].innerHTML=w6[0].innerHTML;
+
+  </script> 
+</body>
+</html>

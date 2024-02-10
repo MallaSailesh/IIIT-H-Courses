@@ -1,0 +1,1 @@
+SELECT CONCAT(Name,"(",SUBSTRING(Profession,1,1),")") AS OUTPUT FROM Q1;

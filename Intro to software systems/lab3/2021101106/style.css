@@ -1,0 +1,42 @@
+#navBar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color:rgb(34, 240, 51);
+  border : 1vw rgb(108, 224, 13);
+}
+
+body {
+  background-color: rgba(1, 253, 232, 0.644);
+}
+
+li {
+  float: left; 
+  padding: 0% 10%; 
+}
+
+h1 {
+    color: rgb(21, 30, 153);
+    text-align: center;
+    font-weight : 1000;
+    border: 1vw solid rgb(36, 21, 243);
+    padding: 5vw;
+}
+
+#email {
+  background-color:rgb(19, 162, 219);
+  font-weight: 100; 
+}
+
+li a {
+  display: block;
+  padding: 10px;
+}
+
+
+footer{
+    text-align: center;
+    border-top: 1vw solid rgb(136, 206, 22);
+}
+
+
+
