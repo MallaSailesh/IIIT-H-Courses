@@ -1,0 +1,20 @@
+discover help
+discover ./OSN -d -f
+discover ./OSN
+discover ./help/OSN
+discover . "osn.txt"
+discover . "c.txt" 
+discover ./help "c.txt" 
+clear
+discover ./help/OSN "c.txt' 
+clear
+sleep 2 ; seq 1 10 ; cat a.txt ;celar
+celar
+clear
+sleep 10 &
+pinfo 10918
+sleep 10 &
+pinfo 10918
+clear
+discover help 
+clear
